@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('spa1.png') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #636b6f;
+}
+
+.links {
+    text-align: center;
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+} 
+
+h1 {
+    color: black;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.servis {
+    
+    background-color: #fff;
+    padding: 50px 0 32px;    
+    background-position: right -49px top calc(20px + 50%);
+    background-size: 286.3px auto;
+    background-attachment: scroll;
+}
+
+article{
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+button {
+    background-color: #727672;
+    border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 12px;
+        
+        position: relative;
+}
+.article-meta {
+    color: rgb(134, 142, 150);
+}
+
+article img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.servis:nth-child(even) {
+    background-color: rgb(180, 141, 222);       
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
