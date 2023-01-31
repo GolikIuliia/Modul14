@@ -11,12 +11,12 @@ $password = $_POST['password'] ?? null;
 $date = $_POST['data'] ?? null;
 $act = $_GET['act'];
 var_dump($act);
-// // зададим книгу логинов и паролей 
-// $users = [
-//      'admin' => ['id' => '1', 'password' => '132432', 'data' => '16.11.2004'],
-//      'Olya' => ['id' => '2', 'password' => '888888', 'data' => '15.10.1986'],
-//      'Anna' => ['id' => '3', 'password' => '7654321', 'data' => '28.26.1982'],
-// ];
+// зададим книгу логинов и паролей 
+$users = [
+     'admin' => ['id' => '1', 'password' => '132432', 'data' => '16.11.2004'],
+     'Olya' => ['id' => '2', 'password' => '888888', 'data' => '15.10.1986'],
+     'Anna' => ['id' => '3', 'password' => '7654321', 'data' => '28.26.1982'],
+];
 
 function getUsersList() {
     $filename = 'users.json';
