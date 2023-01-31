@@ -26,15 +26,11 @@
     </head>
    <body>
         <main>
-            <!-- <form action="process.php" name="signup-form"> -->
-            <form action="index1.php" target="_blank">
-                <!-- <form action="process.php" target="_blank"> -->
-                
+            
+            <form action="index1.php" target="_blank">                    
                     <button>Выйти</button>
-                 <!-- </form> -->
+                        <h1>Добро пожаловать!</h1>
             </form>
-                          
-          
             <section class="servis">          
                 <article>
                     <a href="https://7kpacok.ru/share/ne-povyshaem-tseny/">                                   
@@ -43,7 +39,6 @@
                             <div id="content"></div>
                             <?php
 
-                            //$date = $_POST['data'];
                             $datetime1 = new DateTime(date("Ymd")); //Получаем текущую дату
                             $datetime2 = new DateTime('20231116'); //Дата акции $date;
                             
@@ -69,8 +64,7 @@
                             <h2>Тайская сказка 2 часа. Ваша персональная скидка 5%
                             
                                 <div id="content"></div>
-                                <?php
-                            
+                                <?php                        
                             
                                 $datetime3 = new DateTime(date("H:i:s"));//Получаем текущее время
                                 $datetime4 = new DateTime('23:59:59');//Время, до которого действует акция
